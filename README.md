@@ -160,12 +160,6 @@ Among all classifiers, **Random Forest** and **Gradient Boosting** demonstrated 
 - Limited to voice-based datasets
 - Optimization cost may increase for extremely large datasets
 
----
-
-
----
-
-
 
 ---
 
@@ -184,5 +178,5 @@ AI Researcher | Biomedical Signal Processing
 
 ## 📧 Contact
 
-- GitHub: https://github.com/your-username
-- Email: your.email@example.com
+- GitHub: https://github.com/Shymaa2611
+- Email: Shaymaamadhetahmed@gmail.com
