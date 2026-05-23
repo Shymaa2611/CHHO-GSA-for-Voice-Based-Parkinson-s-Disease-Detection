@@ -50,6 +50,7 @@ The framework aims to improve classification performance while reducing feature 
 - Robust evaluation using standard performance metrics
 
 
+---
 
 ## 🧠 Proposed Framework
 
