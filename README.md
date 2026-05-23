@@ -23,7 +23,7 @@ Parkinson’s Disease (PD) is a progressive neurological disorder that affects s
 
 This project introduces **CHHO-GSA**, a hybrid feature selection framework designed for voice-based Parkinson’s Disease detection using machine learning techniques. The proposed method combines:
 
-- **Harris Hawks Optimization (CHHO)** for effective global exploration
+- **Harris Hawks Optimization (HHO)** for effective global exploration
 - **Gravitational Search Algorithm (GSA)** for refined local exploitation
 - **Logistic Chaotic Mapping** to improve convergence stability and avoid local optima
 
@@ -49,45 +49,21 @@ The framework aims to improve classification performance while reducing feature 
 - Multiple machine learning classifiers
 - Robust evaluation using standard performance metrics
 
----
+
 
 ## 🧠 Proposed Framework
 
-```text
-Voice Dataset
-      │
-      ▼
-Data Preprocessing
-      │
-      ▼
-CHHO-GSA Feature Selection
- ├── HHO Exploration
- ├── GSA Exploitation
- └── Logistic Chaotic Search
-      │
-      ▼
-Optimal Feature Subset
-      │
-      ▼
-Machine Learning Classifiers
- ├── Random Forest
- ├── Gradient Boosting
- ├── Neural Network
- └── KNN
-      │
-      ▼
-Performance Evaluation
-```
+![Parkinson disease prediction pipeline](images/systemPipeline.png)
 
----
+
 
 ## 🚀 Installation
 
 ### Clone Repository
 
 ```bash
-git clone https://github.com/your-username/CHHO-GSA-PD-Detection.git
-cd CHHO-GSA-PD-Detection
+git clone https://github.com/Shymaa2611/CHHO-GSA-for-Voice-Based-Parkinson-s-Disease-Detection.git
+cd CHHO-GSA-for-Voice-Based-Parkinson-s-Disease-Detection.git
 ```
 
 ### Create Virtual Environment
@@ -110,44 +86,6 @@ pip install -r requirements.txt
 
 ---
 
-## 📂 Project Structure
-
-```text
-CHHO-GSA-PD-Detection/
-│
-├── datasets/
-│   ├── raw/
-│   └── processed/
-│
-├── feature_selection/
-│   └── chho_gsa.py
-│
-├── classifiers/
-│   ├── random_forest.py
-│   ├── gradient_boosting.py
-│   ├── neural_network.py
-│   └── knn.py
-│
-├── experiments/
-│   ├── training.py
-│   ├── evaluation.py
-│   └── visualization.py
-│
-├── results/
-│   ├── metrics/
-│   ├── plots/
-│   ├── confusion_matrices/
-│   └── selected_features/
-│
-├── notebooks/
-│   └── experiments.ipynb
-│
-├── requirements.txt
-├── README.md
-└── main.py
-```
-
----
 
 ## ⚙️ Methodology
 
@@ -227,18 +165,7 @@ Among all classifiers, **Random Forest** and **Gradient Boosting** demonstrated 
 
 ---
 
-## 📌 Requirements
 
-```text
-numpy
-pandas
-scikit-learn
-matplotlib
-scipy
-joblib
-```
-
----
 
 ---
 
