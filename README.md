@@ -105,9 +105,14 @@ The proposed optimizer combines:
 - **GSA** for local exploitation
 - **Logistic Chaos** for enhanced diversity and convergence stability
 
+**flowchart of CHHO-GSA** 
+
 ![flowchart of CHHO-GSA](images/flowchart.jpeg)
 
 ---
+
+
+**Pseudocode of CHHO-GSA** 
 
 ![pseudocode of CHHO-GSA](images/algo.png)
 
