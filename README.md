@@ -105,6 +105,13 @@ The proposed optimizer combines:
 - **GSA** for local exploitation
 - **Logistic Chaos** for enhanced diversity and convergence stability
 
+![flowchart of CHHO-GSA](images/flowchart.jpeg)
+
+---
+
+![pseudocode of CHHO-GSA](images/algo.png)
+
+
 ### 3️⃣ Machine Learning Classification
 
 The selected feature subsets are evaluated using:
