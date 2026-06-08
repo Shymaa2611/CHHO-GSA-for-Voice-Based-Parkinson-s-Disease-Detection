@@ -184,12 +184,6 @@ This project is licensed under the MIT License.
 
 ---
 
-## 👩‍💻 Author
-
-**Shymaa Medhat Ahmed**  
-AI Researcher | Biomedical Signal Processing
-
----
 
 ## 📧 Contact
 
